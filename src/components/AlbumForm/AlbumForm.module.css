@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.albumFormContainer {
+  font-family: "Mulish";
+  margin-bottom: 0;
+  margin-top: 120px;
+  margin-left: 22%;
+}
+
+.albumFormContainer form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.albumFormContainer form label{
+  font-size:20px;
+  font-weight: bold;
+  color:#e85d04;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.albumFormContainer input {
+    border:none;
+  height: 40px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #fcb55e, #f5f181);
+  border: 2px solid #ccc; 
+  color:#e85d04;
+}
+.albumFormButtons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+.albumFormButtons button {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.albumFormContainer form input:focus {
+  outline: none;
+  border-color: #e85d04;
+  box-shadow: none;
+}

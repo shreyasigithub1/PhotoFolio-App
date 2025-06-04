@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body{
+  position: relative;
+}
+.closeButton {
+  position:absolute;
+  right:0;
+}
+.imageListcontainer{
+  font-family: "Mulish";
+  margin-top: 90px;
+  margin-left:20px;
+  color: #e85d04;
+  font-size: 20px;
+}
+.imageAddButton{
+  position: absolute;
+  bottom:-50px;
+  right:75px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.imageAddButton button :hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.closeButton span{
+  color:#e85d04;
+  cursor: pointer;
+}

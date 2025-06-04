@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.albumListContainer {
+  position: relative;
+  font-family: "Mulish";
+  margin-top: 120px;
+  margin-left: 20%;
+  color: #e85d04;
+}
+.albumListContainer ul {
+  margin-top: 40px;
+  list-style: none;
+
+}
+
+.albumListElements{
+display: flex;
+gap:20px;
+}
+.albumListElements span{
+  font-size: 40px;
+  margin-top:10px;
+  cursor: pointer;
+}
+.albumListContainer ul li {
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  width: 60%;
+  height: 40px;
+  text-align: center;
+  background-image: linear-gradient(to right, #fcb55e, #f5f181);
+  color: #e85d04;
+  cursor: pointer;
+}
+.albumListContainer ul li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.albumListContainer button {
+  position: absolute;
+  left: 28%;
+  bottom: -60px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addAlbumButton:hover {
+  
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* when form is opened */
+.albumListContainer.formOpen {
+  margin-top: 50px; /* only this changes */
+}

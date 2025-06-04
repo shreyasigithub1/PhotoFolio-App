@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.imageFormContainer {
+  margin-top: 40px;
+  margin-left: 150px;
+  position: relative;
+}
+.imageFormContainer h2 {
+  color: #e85d04;
+}
+.imageFormContainer form label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e85d04;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.imageFormContainer form input {
+  border: none;
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #fcb55e, #f5f181);
+  border: 2px solid #ccc; 
+  color:#e85d04;
+}
+.imageFormButtons {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.imageFormButtons button {
+  margin-right: 10px;
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.imageFormContainer form input:focus {
+  outline: none;
+  border-color: #e85d04;
+  box-shadow: none;
+}
