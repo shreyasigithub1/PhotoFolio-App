@@ -1,5 +1,8 @@
 import Navbar from "./components/Navbar/Navbar";
 import AlbumList from "./components/AlbumList/AlbumList";
+
+//import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "./firebaseInit";
 //React toastify
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";

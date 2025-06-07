@@ -1,23 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
-body{
-    margin:0;
-    background-color: #FFFECE;
+body {
+  margin: 0;
+  background-color: #fffece;
+  font-family: "Mulish";
 }
+/* .navbar{
+  display: flex;
+  background-color: #F3C623;
+  justify-content: space-between;
+  align-items: center;
+  
+} */
 .navbar {
   margin: 0;
   display: flex;
   gap: 10px;
-  font-family: "Mulish";  
-  background-color: #F3C623;
+  font-family: "Mulish";
+  background-color: #f3c623;
 }
 
 .navbar img {
-    margin-left: 10px;
-    margin-top: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
   width: 70px;
   height: 70px;
 }
 .navbar p {
   font-size: 25px;
-  color:#E85D04;
+  color: #e85d04;
+}
+.signInContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.signInContainer span {
+  margin-top: 5px;
+  color: #e85d04;
+  font-weight: bold;
+}
+.signInContainer button {
+  height: 30px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

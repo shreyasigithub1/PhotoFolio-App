@@ -3,7 +3,7 @@
 .albumListContainer {
   position: relative;
   font-family: "Mulish";
-  margin-top: 120px;
+  margin-top: 80px;
   margin-left: 20%;
   color: #e85d04;
 }
@@ -61,4 +61,39 @@ gap:20px;
 /* when form is opened */
 .albumListContainer.formOpen {
   margin-top: 50px; /* only this changes */
+}
+
+.signInFormContainer{
+  margin-bottom: 0;
+  text-align: center;
+}
+.signInFormContainer h2{
+  color:#e85d04;
+}
+.signInFormContainer button{
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signedIn{
+  text-align: end;
+}
+.signedIn span{
+color: #e85d04;
+font-weight: bold;
+}
+.signedIn button{
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #e85d04;
+  color: #f3c623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
